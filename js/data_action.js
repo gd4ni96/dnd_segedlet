@@ -14,7 +14,7 @@ data_action = [
         ]
     },
     {
-        title: "Birkózás",
+        title: "Megragadás",
         icon: "grab",
         subtitle: "Speciális közelharci támadás",
         description: "Megpróbálsz megragadni vagy lefogni egy lényt",
@@ -53,7 +53,7 @@ data_action = [
         ]
     },
     {
-        title: "Sprint",
+        title: "Sprintelés",
         icon: "sprint",
         subtitle: "Mozgási sebesség megduplázása",
         description: "Extra mozgást kapsz a jelenlegi körödre",
@@ -63,7 +63,7 @@ data_action = [
         ]
     },
     {
-        title: "Kivonulás",
+        title: "Elmozdulás",
         icon: "journey",
         subtitle: "Lehetőség támadások elkerülése",
         description: "A mozgásod nem vált ki lehetőség támadásokat a kör végéig",
@@ -85,7 +85,7 @@ data_action = [
     {
         title: "Kiszabadulás",
         icon: "manacles",
-        subtitle: "Szabadulás birkózásból",
+        subtitle: "Szabadulás fogásból",
         description: "Kiszabadulsz egy birkózásból",
         reference: "PHB, 195. o.",
         bullets: [
@@ -165,7 +165,7 @@ data_action = [
         ]
     },
     {
-        title: "Osztályképesség használata",
+        title: "Klassz képesség használata",
         icon: "embrassed-energy",
         subtitle: "Egyes képességek akciót igényelnek",
         description: "Egy faji vagy osztályképesség használata, amely akciót igényel",
@@ -174,7 +174,7 @@ data_action = [
         ]
     },
     {
-        title: "Lény stabilizálása",
+        title: "Stabilizálása",
         icon: "first-aid",
         subtitle: "Elsősegély egy haldokló lénynek",
         description: "Megakadályozod, hogy egy haldokló lény halálmentő dobásokat tegyen",

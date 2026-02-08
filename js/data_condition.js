@@ -1,200 +1,200 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "Vak",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
-        reference: "PHB, pg. 290.",
+        subtitle: "Nem látsz",
+        description: "Nem látsz",
+        reference: "PHB, 290. o.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "Automatikusan elbuksz minden olyan képességpróbát, amely látást igényel.",
+            "Hátrányod van a támadásdobásokra.",
+            "Az ellened irányuló támadásdobások előnnyel történnek."
         ]
     },
     {
-        title: "Charmed",
+        title: "Megbűvölt",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
-        reference: "PHB, pg. 290.",
+        subtitle: "Meg vagy bűvölve",
+        description: "Egy másik lény megbűvölt téged",
+        reference: "PHB, 290. o.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "Nem támadhatod meg a megbűvölődet, és nem célozhatod őt káros képességekkel vagy mágikus hatásokkal.",
+            "A megbűvölőd előnyt kap minden olyan képességpróbára, amely a veled való társas interakcióra irányul."
         ]
     },
     {
-        title: "Deafened",
+        title: "Süket",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
-        reference: "PHB, pg. 290.",
+        subtitle: "Nem hallasz",
+        description: "Nem hallasz",
+        reference: "PHB, 290. o.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "Automatikusan elbuksz minden olyan képességpróbát, amely hallást igényel."
         ]
     },
     {
-        title: "Exhaustion",
+        title: "Kimerültség",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
-        reference: "PHB, pg. 291.",
+        subtitle: "Kimerült vagy",
+        description: "A kimerültség hat szintben mérhető",
+        reference: "PHB, 291. o.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
+            "<table><tr><th>Szint</th><th></th><th></th><th style='text-align:left'>Hatás</th></tr><tr><td>1</td><td></td><td></td><td>Hátrány minden képességpróbára</td></tr><tr><td>2</td><td></td><td></td><td>Sebesség feleződik</td></tr><tr><td>3</td><td></td><td></td><td>Hátrány támadásdobásokra és mentődobásokra</td></tr><tr><td>4</td><td></td><td></td><td>Maximális életerő feleződik</td></tr><tr><td>5</td><td></td><td></td><td>Sebesség 0-ra csökken</td></tr><tr><td>6</td><td></td><td></td><td>Halál</td></tr></table>",
+            "A jelenlegi kimerültségi szinted és az összes alacsonyabb szint hatása is érvényes rád.",
+            "Egy hosszú pihenés befejezése 1-gyel csökkenti a kimerültség szintjét, feltéve hogy ettél és ittál is.",
+            "A halálból való feltámasztás szintén 1-gyel csökkenti a lény kimerültségi szintjét."
         ]
     },
     {
-        title: "Frightened",
+        title: "Megfélemlített",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
-        reference: "PHB, pg. 290.",
+        subtitle: "Meg vagy ijedve",
+        description: "Meg vagy ijedve",
+        reference: "PHB, 290. o.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "Hátrányod van képességpróbákra és támadásdobásokra, amíg a félelmed forrása a látómeződön belül van.",
+            "Nem mozoghatsz szándékosan közelebb a félelmed forrásához."
         ]
     },
     {
-        title: "Grappled",
+        title: "Megragadott",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
-        reference: "PHB, pg. 290.",
+        subtitle: "Meg vagy ragadva",
+        description: "Meg vagy ragadva",
+        reference: "PHB, 290. o.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "A sebességed 0-ra csökken, és nem részesülhetsz semmilyen sebességnövelő bónuszban.",
+            "Az állapot megszűnik, ha a megragadód cselekvőképtelenné válik.",
+            "Az állapot akkor is megszűnik, ha kikerülsz a megragadód hatótávolságából."
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Cselekvőképtelen",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
-        reference: "PHB, pg. 290.",
+        subtitle: "Nem tudsz akciót vagy reakciót végrehajtani",
+        description: "Nem tudsz akciót vagy reakciót végrehajtani",
+        reference: "PHB, 290. o.",
         bullets: [
         ]
     },
     {
-        title: "Invisible",
+        title: "Láthatatlan",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
-        reference: "PHB, pg. 291.",
+        subtitle: "Nem látható vagy",
+        description: "Nem vagy látható mágikus vagy különleges érzékelés nélkül",
+        reference: "PHB, 291. o.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "Rejtőzködés szempontjából erősen takartnak számítasz.",
+            "Zaj vagy nyomok alapján továbbra is észlelhető vagy.",
+            "Előnyöd van a támadásdobásokra.",
+            "Az ellened irányuló támadásdobások hátránnyal történnek."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Bénult",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Bénult vagy",
+        description: "Nem tudsz semmit csinálni",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Cselekvőképtelen vagy, nem tudsz mozogni vagy beszélni.",
+            "Az ellened irányuló támadásdobások előnnyel történnek.",
+            "Minden támadás, amely eltalál, kritikus találat, ha a támadó 5 lábon belül van.",
+            "Automatikusan elbukod az Erő és Ügyesség mentődobásokat."
         ]
     },
     {
-        title: "Petrified",
+        title: "Megkövesedett",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
-        reference: "PHB, pg. 291.",
+        subtitle: "Kővé váltál",
+        description: "Te és az összes nem mágikus tárgyad szilárd, élettelen anyaggá (általában kővé) váltok",
+        reference: "PHB, 291. o.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "A testsúlyod tízszeresére nő, és megszűnsz öregedni.",
+            "Cselekvőképtelen vagy, nem tudsz mozogni vagy beszélni, és nem vagy tudatában a környezetednek.",
+            "Az ellened irányuló támadásdobások előnnyel történnek.",
+            "Automatikusan elbukod az Erő és Ügyesség mentődobásokat.",
+            "Ellenállásod van minden sebzéssel szemben.",
+            "Immunis vagy a méregre és a betegségekre, bár a már a szervezetedben lévő méreg vagy betegség csak felfüggesztődik, nem szűnik meg."
         ]
     },
     {
-        title: "Poisoned",
+        title: "Megmérgezett",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
-        reference: "PHB, pg. 292.",
+        subtitle: "Meg vagy mérgezve",
+        description: "Meg vagy mérgezve",
+        reference: "PHB, 292. o.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "Hátrányod van a támadásdobásokra és a képességpróbákra."
         ]
     },
     {
-        title: "Prone",
+        title: "Hason fekvő",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
-        reference: "PHB, pg. 292.",
+        subtitle: "Hason fekszel",
+        description: "Hason fekszel",
+        reference: "PHB, 292. o.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "Az egyetlen mozgási lehetőséged a kúszás, hacsak fel nem állsz.",
+            "Hátrányod van a támadásdobásokra.",
+            "Az ellened irányuló támadásdobások előnnyel történnek, ha a támadó 5 lábon belül van, egyébként hátránnyal."
         ]
     },
     {
-        title: "Restrained",
+        title: "Megkötözött",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
-        reference: "PHB, pg. 292.",
+        subtitle: "Meg vagy kötözve",
+        description: "Meg vagy kötözve",
+        reference: "PHB, 292. o.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "A sebességed 0-ra csökken, és nem részesülhetsz semmilyen sebességnövelő bónuszban.",
+            "Hátrányod van a támadásdobásokra.",
+            "Az ellened irányuló támadásdobások előnnyel történnek.",
+            "Hátrányod van az Ügyesség mentődobásokra."
         ]
     },
     {
-        title: "Stunned",
+        title: "Elkábított",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
-        reference: "PHB, pg. 292.",
+        subtitle: "El vagy kábítva",
+        description: "El vagy kábítva",
+        reference: "PHB, 292. o.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Cselekvőképtelen vagy, nem tudsz mozogni, és csak akadozva tudsz beszélni.",
+            "Az ellened irányuló támadásdobások előnnyel történnek.",
+            "Automatikusan elbukod az Erő és Ügyesség mentődobásokat."
         ]
     },
     {
-        title: "Unconscious",
+        title: "Eszméletlen",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
-        reference: "PHB, pg. 292.",
+        subtitle: "Eszméletlen vagy",
+        description: "Eszméletlen vagy",
+        reference: "PHB, 292. o.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "Cselekvőképtelen vagy, nem tudsz mozogni vagy beszélni, és nem vagy tudatában a környezetednek.",
+            "Elejted mindazt, amit tartasz, és hasra esel.",
+            "Az ellened irányuló támadásdobások előnnyel történnek.",
+            "Minden támadás, amely eltalál, kritikus találat, ha a támadó 5 lábon belül van.",
+            "Automatikusan elbukod az Erő és Ügyesség mentődobásokat."
         ]
     },
     {
-        title: "Dying",
+        title: "Haldokló",
         icon: "dead-head",
-        subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
-        reference: "PHB, pg. 197.",
+        subtitle: "Haldokolsz",
+        description: "0 életerőre estél, és haldokolsz",
+        reference: "PHB, 197. o.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
-            "If you receive any healing you immediately regain consciousness again and no longer dying.",
-            "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
-            "A 10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 counts as two failures.",
-            "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "Ha olyan sebzés miatt esel 0 életerőre, amely nem öl meg azonnal, eszméletlen állapotba kerülsz és haldokolsz.",
+            "Ha bármilyen gyógyítást kapsz, azonnal visszanyered az eszméletedet, és már nem haldokolsz.",
+            "Haldoklás közben minden köröd elején halálmentő dobást teszel. Dobj egy d20-at, módosítók nélkül.",
+            "10 vagy magasabb érték siker, 9 vagy alatta kudarc.",
+            "A harmadik siker után stabil állapotba kerülsz.",
+            "A harmadik kudarc után meghalsz.",
+            "1 dobása két kudarcnak számít.",
+            "20 dobása azonnal 1 életerőt ad vissza.",
+            "Egy szövetséges stabilizálhat a Stabilizálás akcióval, ha sikeresen teljesít egy DC 10 Bölcsesség (Gyógyítás) próbát.",
+            "Stabil állapotban 1 életerőt nyersz vissza 1d4 óra elteltével."
         ]
     }
 ]

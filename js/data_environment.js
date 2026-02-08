@@ -1,132 +1,132 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
+        title: "Enyhén takart",
         icon: "bleeding-eye",
-        subtitle: "Disadvantage on Perception",
-        description: "Dim light, patchy fog, moderate foliage",
-        reference: "PHB, pg. 183.",
+        subtitle: "Hátrány Észlelésre",
+        description: "Homályos fény, foltos köd, mérsékelt növényzet",
+        reference: "PHB, 183. o.",
         bullets: [
-            "Creatures have <b>disadvantage on Wisdom (Perception)</b> checks that rely on sight."
+            "A lények <b>hátránnyal</b> dobnak minden olyan <b>Bölcsesség (Észlelés)</b> próbára, amely látáson alapul."
         ]
     },
     {
-        title: "Heavily obscured",
+        title: "Erősen takart",
         icon: "lightning-tear",
-        subtitle: "Effectively blind",
-        description: "Darkness, opaque fog, dense foliage",
-        reference: "PHB, pg. 183.",
+        subtitle: "Gyakorlatilag vak",
+        description: "Sötétség, átlátszatlan köd, sűrű növényzet",
+        reference: "PHB, 183. o.",
         bullets: [
-            "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
+            "Egy erősen takart területen lévő lény gyakorlatilag a <b>vak</b> állapot hatásai alatt áll."
         ]
     }
 ]
 
 data_environment_light = [
     {
-        title: "Bright light",
+        title: "Erős fény",
         icon: "star-pupil",
-        subtitle: "Normal vision",
-        description: "Bright light lets most creatures see normally",
-        reference: "PHB, pg. 183.",
+        subtitle: "Normál látás",
+        description: "Az erős fényben a legtöbb lény normálisan lát",
+        reference: "PHB, 183. o.",
         bullets: [
-            "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
+            "A borús nappalok is erős fénynek számítanak, ahogy a fáklyák, lámpások, tüzek és más fényforrások is egy meghatározott sugáron belül."
         ]
     },
     {
-        title: "Dim light",
+        title: "Homályos fény",
         icon: "semi-closed-eye",
-        subtitle: "Lightly obscured",
-        description: "Dim light, also called shadows",
-        reference: "PHB, pg. 183.",
+        subtitle: "Enyhén takart",
+        description: "Homályos fény, más néven árnyék",
+        reference: "PHB, 183. o.",
         bullets: [
-            "Creates a <b>lightly obscured</b> area.",
-            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
-            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+            "<b>Enyhén takart</b> területet hoz létre.",
+            "A homályos fény általában határvonal egy erős fényforrás (például fáklya) és a környező sötétség között.",
+            "A szürkület és a hajnal lágy fénye is homályos fénynek számít. Egy különösen fényes telihold is beboríthatja a tájat homályos fénnyel."
         ]
     },
     {
-        title: "Darkness",
+        title: "Sötétség",
         icon: "worried-eyes",
-        subtitle: "Heavily obscured",
-        description: "Darkness creates a heavily obscured area",
-        reference: "PHB, pg. 183.",
+        subtitle: "Erősen takart",
+        description: "A sötétség erősen takart területet hoz létre",
+        reference: "PHB, 183. o.",
         bullets: [
-            "Creates a <b>heavily obscured</b> area.",
-            "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
+            "<b>Erősen takart</b> területet hoz létre.",
+            "A karakterek éjszaka a szabadban sötétséggel szembesülnek (még a legtöbb holdfényes éjszakán is), megvilágítatlan kazamatákban vagy föld alatti termekben, illetve mágikus sötétség területén."
         ]
     }
 ]
 
 data_environment_vision = [
     {
-        title: "Blindsight",
+        title: "Vaklátás",
         icon: "one-eyed",
-        subtitle: "Perceive without sight",
-        description: "Perceive your surroundings without relying on sight, within a certain radius",
-        reference: "PHB, pg. 183.",
+        subtitle: "Észlelés látás nélkül",
+        description: "A környezeted érzékelése látásra támaszkodás nélkül, egy bizonyos sugáron belül",
+        reference: "PHB, 183. o.",
         bullets: [
-            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
+            "Szem nélküli lények (például oozék), valamint echolokációval vagy kiélezett érzékekkel rendelkező lények (például denevérek és valódi sárkányok) rendelkezhetnek ezzel az érzékkel."
         ]
     },
     {
-        title: "Darkvision",
+        title: "Sötétlátás",
         icon: "semi-closed-eye",
-        subtitle: "Limited vision in darkness",
-        description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
-        reference: "PHB, pgs. 183-184.",
+        subtitle: "Korlátozott látás sötétben",
+        description: "A sötétlátással rendelkező lény jobban lát sötétben vagy gyenge fényviszonyok között, egy bizonyos sugáron belül",
+        reference: "PHB, 183–184. o.",
         bullets: [
-            "Within a specified range, a creature with darkvision can <b>see in darkness as if the darkness were dim light</b>, so areas of darkness are only lightly obscured as far as that creature is concerned.",
-            "However, the creature can’t discern color in darkness, only shades of gray.",
-            "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision."
+            "A megadott távolságon belül a sötétlátással rendelkező lény <b>a sötétségben úgy lát, mintha az homályos fény lenne</b>, így számára a sötét területek csak enyhén takartnak számítanak.",
+            "A lény azonban nem képes színeket megkülönböztetni sötétben, csak a szürke árnyalatait.",
+            "A D&D világaiban sok lénynek van sötétlátása, különösen az olyanoknak, amelyek a föld alatt élnek."
         ]
     },
     {
-        title: "Truesight",
+        title: "Igazlátás",
         icon: "eye-shield",
-        subtitle: "See in darkness",
-        description: "A creature with truesight can see everything in its true form, independent of the environment",
-        reference: "PHB, pg. 184.",
+        subtitle: "Látás sötétben",
+        description: "Az igazlátással rendelkező lény mindent a valódi alakjában lát, a környezettől függetlenül",
+        reference: "PHB, 184. o.",
         bullets: [
-            "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
-            "Furthermore, the creature can see into the Ethereal Plane."
+            "Az igazlátással rendelkező lény a megadott távolságon belül lát normál és mágikus sötétségben is, látja a láthatatlan lényeket és tárgyakat, automatikusan felismeri a vizuális illúziókat és sikerrel jár a mentődobásokon ellenük, valamint érzékeli egy alakváltó vagy mágikusan átalakított lény eredeti formáját.",
+            "Továbbá a lény belát az Eterikus Síkra is."
         ]
     }
 ]
 
 data_environment_cover = [
     {
-        title: "Half cover",
+        title: "Félig fedezék",
         icon: "broken-shield",
-        subtitle: "Low wall, furniture, creatures",
-        description: "A target has half cover if an obstacle blocks at least half of its body",
-        reference: "PHB, pg. 196.",
+        subtitle: "Alacsony fal, bútor, lények",
+        description: "A célpont félig fedezékben van, ha egy akadály legalább a testének felét eltakarja",
+        reference: "PHB, 196. o.",
         bullets: [
-            "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Az akadály lehet alacsony fal, nagyobb bútordarab, keskeny fatörzs, vagy akár egy lény is (ellenség vagy barát).",
+            "A félig fedezékben lévő célpont <b>+2 bónuszt kap AC-re és Ügyesség mentődobásokra</b>.",
+            "Ha a célpont több fedezékforrás mögött is van, csak a legnagyobb védelmet nyújtó fedezék érvényesül."
         ]
     },
     {
-        title: "Three-quarters cover",
+        title: "Háromnegyedes fedezék",
         icon: "cracked-shield",
-        subtitle: "Portcullis, arrow slit",
-        description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
-        reference: "PHB, pg. 196.",
+        subtitle: "Rács, lőrés",
+        description: "A célpont háromnegyedes fedezékben van, ha körülbelül a háromnegyedét eltakarja egy akadály",
+        reference: "PHB, 196. o.",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Az akadály lehet például egy rács (portcullis), egy lőrés, vagy egy vastag fatörzs.",
+            "A háromnegyedes fedezékben lévő célpont <b>+5 bónuszt kap AC-re és Ügyesség mentődobásokra</b>.",
+            "Ha a célpont több fedezékforrás mögött is van, csak a legnagyobb védelmet nyújtó fedezék érvényesül."
         ]
     },
     {
-        title: "Full cover",
+        title: "Teljes fedezék",
         icon: "shield",
-        subtitle: "Completely concealed",
-        description: "A target has total cover if it is completely concealed by an obstacle",
-        reference: "PHB, pg. 196.",
+        subtitle: "Teljesen eltakarva",
+        description: "A célpont teljes fedezékben van, ha egy akadály teljesen eltakarja",
+        reference: "PHB, 196. o.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "A teljes fedezékben lévő célpontot <b>nem lehet közvetlenül megcélozni</b> támadással vagy varázslattal, bár egyes varázslatok elérhetik úgy, hogy a hatásterületükbe esik.",
+            "Ha a célpont több fedezékforrás mögött is van, csak a legnagyobb védelmet nyújtó fedezék érvényesül."
         ]
     }
 ]

@@ -1,36 +1,36 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Lehetőségi támadás",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
-        reference: "PHB, pg. 195.",
+        subtitle: "Az ellenség elhagyja a hatótávolságod",
+        description: "Ritkán tudsz következmények nélkül elsétálni az ellenségeid mellett",
+        reference: "PHB, 195. o.",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Kiváltó ok: egy ellenséges lény, akit látsz, elhagyja a hatótávolságodat.",
+            "Egy közelharci támadást hajtasz végre a kiváltó lény ellen.",
+            "A támadás megszakítja a kiváltó lény mozgását, közvetlenül azelőtt történik, hogy elhagyná a hatótávolságodat.",
+            "A lények nem váltanak ki lehetőség támadást, ha teleportálnak, vagy ha valaki vagy valami mozgatja őket anélkül, hogy a saját mozgásukat, akciójukat vagy reakciójukat használnák."
         ]
     },
     {
-        title: "Readied action",
+        title: "Előkészített akció",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
-        reference: "PHB, pg. 193.",
+        subtitle: "A Felkészülés akció része",
+        description: "Végrehajtod a Felkészülés akcióval megadott reakciót",
+        reference: "PHB, 193. o.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Kiváltó ok: a <i>Felkészülés</i> akcióval meghatározva."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Varázslás",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
-        reference: "PHB, pg. 192.",
+        subtitle: "Varázslási idő: 1 reakció",
+        description: "Varázslat elmondása, amelynek varázslási ideje 1 reakció",
+        reference: "PHB, 192. o.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Kiváltó ok: a varázslat írja le.",
+            "További részletekért lásd a <i>Varázslás</i> akció leírását."
         ]
     }
 ]
