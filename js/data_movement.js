@@ -16,8 +16,8 @@ data_movement = [
     {
         title: "Mászás",
         icon: "crags",
-        subtitle: "Költség: 5 láb / 5 láb",
-        description: "Mozgási költség: 5 láb minden megmászott 5 láb után",
+        subtitle: "Költség: 10 láb / 5 láb",
+        description: "Mozgási költség: 10 láb minden megmászott 5 láb után",
         reference: "PHB, 182. o.",
         bullets: [
             "Nehéz mászás esetén Erő (Atlétika) próba lehet szükséges."
@@ -26,8 +26,8 @@ data_movement = [
     {
         title: "Úszás",
         icon: "at-sea",
-        subtitle: "Költség: 5 láb / 5 láb",
-        description: "Mozgási költség: 5 láb minden leúszott 5 láb után",
+        subtitle: "Költség: 10 láb / 5 láb",
+        description: "Mozgási költség: 10 láb minden leúszott 5 láb után",
         reference: "PHB, 182. o.",
         bullets: [
             "Nehéz úszás esetén Erő (Atlétika) próba lehet szükséges."

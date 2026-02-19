@@ -65,13 +65,13 @@ data_environment_vision = [
         description: "A környezeted érzékelése látásra támaszkodás nélkül, egy bizonyos sugáron belül",
         reference: "PHB, 183. o.",
         bullets: [
-            "Szem nélküli lények (például oozék), valamint echolokációval vagy kiélezett érzékekkel rendelkező lények (például denevérek és valódi sárkányok) rendelkezhetnek ezzel az érzékkel."
+            "Szem nélküli lények (például oozok), valamint echolokációval vagy kiélezett érzékekkel rendelkező lények (például denevérek és valódi sárkányok) rendelkezhetnek ezzel az érzékkel."
         ]
     },
     {
         title: "Sötétlátás",
         icon: "semi-closed-eye",
-        subtitle: "Korlátozott látás sötétben",
+        subtitle: "Feketefehér látás a sötétben",
         description: "A sötétlátással rendelkező lény jobban lát sötétben vagy gyenge fényviszonyok között, egy bizonyos sugáron belül",
         reference: "PHB, 183–184. o.",
         bullets: [
@@ -83,7 +83,7 @@ data_environment_vision = [
     {
         title: "Igazlátás",
         icon: "eye-shield",
-        subtitle: "Látás sötétben",
+        subtitle: "Látás sötétben és láthatatlanok érzékelése",
         description: "Az igazlátással rendelkező lény mindent a valódi alakjában lát, a környezettől függetlenül",
         reference: "PHB, 184. o.",
         bullets: [
@@ -95,7 +95,7 @@ data_environment_vision = [
 
 data_environment_cover = [
     {
-        title: "Félig fedezék",
+        title: "Fél fedezék",
         icon: "broken-shield",
         subtitle: "Alacsony fal, bútor, lények",
         description: "A célpont félig fedezékben van, ha egy akadály legalább a testének felét eltakarja",

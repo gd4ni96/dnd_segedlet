@@ -2,8 +2,8 @@ data_condition = [
     {
         title: "Vak",
         icon: "one-eyed",
-        subtitle: "Nem látsz",
-        description: "Nem látsz",
+        subtitle: "Nem látsz semmit",
+        description: "Nem érzékeled vizuálisan a környezetedet, minden látásalapú cselekvés ellehetetlenül.",
         reference: "PHB, 290. o.",
         bullets: [
             "Automatikusan elbuksz minden olyan képességpróbát, amely látást igényel.",
@@ -14,8 +14,8 @@ data_condition = [
     {
         title: "Megbűvölt",
         icon: "smitten",
-        subtitle: "Meg vagy bűvölve",
-        description: "Egy másik lény megbűvölt téged",
+        subtitle: "Vmi/Vki befolyása alatt vagy",
+        description: "Egy másik lény mágikus vagy természetfeletti módon befolyásolja a viselkedésedet vele szemben.",
         reference: "PHB, 290. o.",
         bullets: [
             "Nem támadhatod meg a megbűvölődet, és nem célozhatod őt káros képességekkel vagy mágikus hatásokkal.",
@@ -25,8 +25,8 @@ data_condition = [
     {
         title: "Süket",
         icon: "elf-ear",
-        subtitle: "Nem hallasz",
-        description: "Nem hallasz",
+        subtitle: "Nem hallasz semmit",
+        description: "Nem érzékeled a hangokat, minden hallásalapú észlelés automatikusan sikertelen.",
         reference: "PHB, 290. o.",
         bullets: [
             "Automatikusan elbuksz minden olyan képességpróbát, amely hallást igényel."
@@ -35,8 +35,8 @@ data_condition = [
     {
         title: "Kimerültség",
         icon: "crawl",
-        subtitle: "Kimerült vagy",
-        description: "A kimerültség hat szintben mérhető",
+        subtitle: "Fizikailag és mentálisan kimerült vagy",
+        description: "A tested és elméd túlterhelt; a hatás súlyossága a kimerültség szintjétől függ.",
         reference: "PHB, 291. o.",
         bullets: [
             "<table><tr><th>Szint</th><th></th><th></th><th style='text-align:left'>Hatás</th></tr><tr><td>1</td><td></td><td></td><td>Hátrány minden képességpróbára</td></tr><tr><td>2</td><td></td><td></td><td>Sebesség feleződik</td></tr><tr><td>3</td><td></td><td></td><td>Hátrány támadásdobásokra és mentődobásokra</td></tr><tr><td>4</td><td></td><td></td><td>Maximális életerő feleződik</td></tr><tr><td>5</td><td></td><td></td><td>Sebesség 0-ra csökken</td></tr><tr><td>6</td><td></td><td></td><td>Halál</td></tr></table>",
@@ -48,8 +48,8 @@ data_condition = [
     {
         title: "Megfélemlített",
         icon: "sharp-smile",
-        subtitle: "Meg vagy ijedve",
-        description: "Meg vagy ijedve",
+        subtitle: "A félelem átveszi feletted az uralmat",
+        description: "Egy konkrét forrás félelmet kelt benned, ami korlátozza a cselekedeteidet.",
         reference: "PHB, 290. o.",
         bullets: [
             "Hátrányod van képességpróbákra és támadásdobásokra, amíg a félelmed forrása a látómeződön belül van.",
@@ -59,8 +59,8 @@ data_condition = [
     {
         title: "Megragadott",
         icon: "grab",
-        subtitle: "Meg vagy ragadva",
-        description: "Meg vagy ragadva",
+        subtitle: "Valaki fizikailag visszatart",
+        description: "Egy másik lény fizikailag lefog vagy megragad, megakadályozva a mozgásodat.",
         reference: "PHB, 290. o.",
         bullets: [
             "A sebességed 0-ra csökken, és nem részesülhetsz semmilyen sebességnövelő bónuszban.",
@@ -72,7 +72,7 @@ data_condition = [
         title: "Cselekvőképtelen",
         icon: "internal-injury",
         subtitle: "Nem tudsz akciót vagy reakciót végrehajtani",
-        description: "Nem tudsz akciót vagy reakciót végrehajtani",
+        description: "Nem tudsz akciót vagy reakciót használni, és nem tudsz aktívan részt venni a harcban.",
         reference: "PHB, 290. o.",
         bullets: [
         ]
@@ -80,8 +80,8 @@ data_condition = [
     {
         title: "Láthatatlan",
         icon: "invisible",
-        subtitle: "Láthatatlan vagy",
-        description: "Nem vagy látható mágikus vagy különleges érzékelés nélkül",
+        subtitle: "Nem látható a tested",
+        description: "Nem vagy érzékelhető látással, hacsak valaki nem rendelkezik különleges érzékeléssel vagy mágiával.",
         reference: "PHB, 291. o.",
         bullets: [
             "Rejtőzködés szempontjából erősen takartnak számítasz.",
@@ -93,8 +93,8 @@ data_condition = [
     {
         title: "Bénult",
         icon: "internal-injury",
-        subtitle: "Bénult vagy",
-        description: "Nem tudsz semmit csinálni",
+        subtitle: "Teljes mozgásképtelenség",
+        description: "Nem tudsz mozogni vagy beszélni; a tested teljesen lebénult.",
         bullets: [
             "Cselekvőképtelen vagy, nem tudsz mozogni vagy beszélni.",
             "Az ellened irányuló támadásdobások előnnyel történnek.",
@@ -106,7 +106,7 @@ data_condition = [
         title: "Megkövesedett",
         icon: "stone-pile",
         subtitle: "Kővé váltál",
-        description: "Te és az összes nem mágikus tárgyad szilárd, élettelen anyaggá (általában kővé) váltok",
+        description: "A tested élettelen, szilárd anyaggá változott, miközben tudatod általában megszűnik érzékelni a külvilágot.",
         reference: "PHB, 291. o.",
         bullets: [
             "A testsúlyod tízszeresére nő, és megszűnsz öregedni.",
@@ -120,8 +120,8 @@ data_condition = [
     {
         title: "Megmérgezett",
         icon: "deathcab",
-        subtitle: "Meg vagy mérgezve",
-        description: "Meg vagy mérgezve",
+        subtitle: "Méreg hatása alatt állsz",
+        description: "A szervezetedet méreg gyengíti, ami hátráltatja a cselekvéseidet.",
         reference: "PHB, 292. o.",
         bullets: [
             "Hátrányod van a támadásdobásokra és a képességpróbákra."
@@ -130,8 +130,8 @@ data_condition = [
     {
         title: "Hason fekvő",
         icon: "crawl",
-        subtitle: "Hason fekszel",
-        description: "Hason fekszel",
+        subtitle: "A földön fekszel",
+        description: "A földre kerültél, és csak kúszva tudsz mozogni, amíg fel nem állsz.",
         reference: "PHB, 292. o.",
         bullets: [
             "Az egyetlen mozgási lehetőséged a kúszás, hacsak fel nem állsz.",
@@ -142,8 +142,8 @@ data_condition = [
     {
         title: "Megkötözött",
         icon: "imprisoned",
-        subtitle: "Meg vagy kötözve",
-        description: "Meg vagy kötözve",
+        subtitle: "Mozgásod korlátozva van",
+        description: "Fizikai kötelékek vagy mágikus hatások akadályozzák a mozgásodat.",
         reference: "PHB, 292. o.",
         bullets: [
             "A sebességed 0-ra csökken, és nem részesülhetsz semmilyen sebességnövelő bónuszban.",
@@ -155,8 +155,8 @@ data_condition = [
     {
         title: "Elkábított",
         icon: "internal-injury",
-        subtitle: "El vagy kábítva",
-        description: "El vagy kábítva",
+        subtitle: "Zavart és cselekvőképtelen vagy",
+        description: "Mentálisan és fizikailag lelassult vagy, nem tudsz rendesen reagálni.",
         reference: "PHB, 292. o.",
         bullets: [
             "Cselekvőképtelen vagy, nem tudsz mozogni, és csak akadozva tudsz beszélni.",
@@ -167,8 +167,8 @@ data_condition = [
     {
         title: "Eszméletlen",
         icon: "coma",
-        subtitle: "Eszméletlen vagy",
-        description: "Eszméletlen vagy",
+        subtitle: "Nem vagy magadnál",
+        description: "Teljesen elvesztetted az eszméletedet, és nem érzékeled a külvilágot.",
         reference: "PHB, 292. o.",
         bullets: [
             "Cselekvőképtelen vagy, nem tudsz mozogni vagy beszélni, és nem vagy tudatában a környezetednek.",
@@ -181,8 +181,8 @@ data_condition = [
     {
         title: "Haldokló",
         icon: "dead-head",
-        subtitle: "Haldokolsz",
-        description: "0 életerőre estél, és haldokolsz",
+        subtitle: "Az élet és halál határán",
+        description: "0 életerőn vagy, eszméletlen állapotban, és minden körben a túlélésért küzdesz.",
         reference: "PHB, 197. o.",
         bullets: [
             "Ha olyan sebzés miatt esel 0 életerőre, amely nem öl meg azonnal, eszméletlen állapotba kerülsz és haldokolsz.",
